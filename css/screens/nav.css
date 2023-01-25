@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 46px;
+    height: 48px;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
@@ -19,8 +19,18 @@ nav a {
     padding: 0px 17px;
 }
 
-nav li:hover {
+nav span {
+    padding: 14px 17px;
+}
+
+nav li:hover span:hover {
     background-color: rgba(0,0,0,0.1);
+}
+
+nav li:active span:active {
+    border-bottom: 1px solid rgb(26,115,232);
+    color: rgb(66,133,243);
+    background-color: ;
 }
 
 .nav__noodles {

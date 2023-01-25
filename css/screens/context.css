@@ -27,6 +27,7 @@ input {
 
 input[type="text"] {
     height: 218px;
+    width: 444px;
 }
 
 hr {
