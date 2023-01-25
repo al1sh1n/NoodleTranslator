@@ -1,0 +1,26 @@
+.options {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+.options span {
+    display: block;
+    margin-top: 14px;
+
+}
+
+.options a {
+    text-decoration: none;
+    color: rgb(139,139,139);
+    margin: 0px 31px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.options i {
+    border: 1px solid rgba(0,0,0, 0.2);
+    border-radius: 50%;
+    height: 69px;
+    width: 69px;
+}
+

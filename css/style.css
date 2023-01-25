@@ -8,6 +8,7 @@
 @import "screens/footer.css";
 @import "screens/nav.css";
 @import "screens/context.css";
+@import "screens/options.css";
 
 body {
     font-family: 'Noto Sans', sans-serif;
