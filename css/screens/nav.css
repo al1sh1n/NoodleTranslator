@@ -28,7 +28,7 @@ nav li:hover span:hover {
 }
 
 nav li:active span:active {
-    border-bottom: 1px solid rgb(26,115,232);
+    border-bottom: 2px solid rgb(26,115,232);
     color: rgb(66,133,243);
     background-color: ;
 }
