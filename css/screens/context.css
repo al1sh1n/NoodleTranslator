@@ -1,0 +1,43 @@
+.context {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 218px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.context__input {
+    height: 218px;
+    width: 50%;
+    float: left;
+}
+
+input {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    padding-left: 10px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+input[type="text"] {
+    height: 218px;
+}
+
+hr {
+    height:218px; 
+    width:0;
+    border:0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.context__output {
+    background-color: rgb(245,245,245);
+    height: 218px;
+    width: 50%;
+    float: right;
+}

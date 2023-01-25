@@ -8,6 +8,8 @@ nav {
 
 .nav__noodles, .nav__type {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
@@ -21,3 +23,17 @@ nav li:hover {
     background-color: rgba(0,0,0,0.1);
 }
 
+.nav__noodles {
+    height: 46px;
+    width: 45%;
+    float: left;
+}
+.nav__type {
+    height: 46px;
+    width: 45%;
+    float: right;
+}
+
+.fa-arrow-right-arrow-left {
+    width: 10%;
+}
