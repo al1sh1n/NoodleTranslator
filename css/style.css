@@ -5,6 +5,7 @@
 @import "components/header.css";
 
 /* Screens */
+@import "screens/footer.css";
 
 body {
     font-family: 'Noto Sans', sans-serif;
