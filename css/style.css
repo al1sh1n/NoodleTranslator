@@ -6,6 +6,7 @@
 
 /* Screens */
 @import "screens/footer.css";
+@import "screens/nav.css";
 
 body {
     font-family: 'Noto Sans', sans-serif;
