@@ -1,5 +1,23 @@
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 64px;
-    margin-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 0px 26px;
+}
+
+.header__bar {
+    color: rgb(95,99,103);
+    padding-right: 19px;
+}
+
+.fa-circle-user {
+    color: rgb(237,65,122);
+}
+
+.header__logo {
+    color: rgb(95,99,103);
+    font-size: 18px;
+    text-decoration: none;
 }
