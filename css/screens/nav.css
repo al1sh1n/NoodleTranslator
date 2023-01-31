@@ -18,11 +18,25 @@
 .nav a {
     text-decoration: none;
     color: rgb(119,123,126);
-
+    padding: 14px 18px;
 }
 
 .nav a:hover {
-    text-decoration: none;
     background-color: rgba(0, 0, 0, 0.1);
     color: rgb(119,123,126);
+}
+
+.nav a:focus {
+    color: rgb(29,114,232);
+    border-bottom: 1px solid rgb(29,114,232);
+}
+
+.nav__switch i {
+    
+}
+
+.nav__switch i:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    padding: 12px 15px;
 }

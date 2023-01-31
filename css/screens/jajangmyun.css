@@ -1,0 +1,10 @@
+.context__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.context__input img {
+    width: 200px;
+    height: 200px;
+}

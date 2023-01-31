@@ -9,6 +9,9 @@
 @import "screens/nav.css";
 @import "screens/context.css";
 @import "screens/options.css";
+@import "screens/shinramyun.css";
+@import "screens/swsoup.css";
+@import "screens/jajangmyun.css";
 
 body {
     font-family: 'Noto Sans', sans-serif;

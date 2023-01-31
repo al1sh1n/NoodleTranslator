@@ -4,20 +4,39 @@
     align-items: center;
     height: 64px;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-    padding: 0px 26px;
-}
-
-.header__bar {
-    color: rgb(95,99,103);
-    padding-right: 19px;
-}
-
-.fa-circle-user {
-    color: rgb(237,65,122);
+    padding: 0px 10px 0px 10px;
 }
 
 .header__logo {
     color: rgb(95,99,103);
     font-size: 18px;
     text-decoration: none;
+}
+
+.header__bar {
+    color: rgb(95,99,103);
+    padding: 12px 15px;
+    align-items: center;
+}
+
+.header__bar:hover {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50px;
+}
+
+.fa-circle-user {
+    color: rgb(237,65,122);
+    padding: 20px 4px;
+}
+
+.fa-circle-user:hover {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50px;
+    align-items: center;
+}
+
+.fa-circle-user:active {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 50px;
+    align-items: center;
 }
