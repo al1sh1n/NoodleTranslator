@@ -28,3 +28,16 @@
     font-size: smaller;
     text-align: center;
 }
+
+.options a:active, .options i:active {
+    text-decoration: none;
+    color: rgb(29,114,232);
+}
+
+.options i:active {
+    background-color: rgb(234,240,252);
+}
+
+ .options span:active {
+    color: rgb(29,114,232);
+}
