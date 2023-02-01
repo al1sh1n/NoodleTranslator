@@ -1,0 +1,27 @@
+.context__output {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.context__output div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.context__output img {
+    width: 100px;
+    height: 100px;
+}
+
+.context__output span {
+    padding-top: 10px;
+    font-size: 14px;
+    color: rgb(119,123,126);
+}
+
+#or {
+    padding: 10px 0px;
+}
