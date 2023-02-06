@@ -5,19 +5,13 @@
     flex-wrap: wrap;
 }
 
-.context__output div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .context__output img {
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
 }
 
-.context__output span {
-    padding-top: 10px;
+.context__output ul li {
     font-size: 14px;
     color: rgb(119,123,126);
+    padding: 3px 0px;
 }
