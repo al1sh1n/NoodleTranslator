@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 48px;
+    height: 50px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -17,26 +17,23 @@
 .nav a {
     text-decoration: none;
     color: rgb(119,123,126);
-    padding: 14px 18px;
+    padding: 14px 16px;
 }
 
-.nav a:hover {
+.nav__noodles a:hover, .nav__type a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     color: rgb(119,123,126);
 }
 
-.nav a:focus {
+.nav__noodles a:hover, .nav__type a:hover {
     color: rgb(29,114,232);
     border-bottom: 1px solid rgb(29,114,232);
 }
 
-.nav__switch button {
+.nav__switch i {
     padding: 0;
     border: none;
     background: none;
-}
-
-.nav__switch i {
     size: 100px;
     color: rgb(119,123,126);
     padding: 14px 16px;
