@@ -4,6 +4,7 @@
 /* Components */
 @import "components/header.css";
 @import "components/no-mobile.css";
+@import "components/no-portrait.css";
 
 /* Screens */
 @import "screens/footer.css";
