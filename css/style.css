@@ -3,6 +3,7 @@
 
 /* Components */
 @import "components/header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/footer.css";
@@ -15,5 +16,6 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
+    height: 100vh;
 }
 
