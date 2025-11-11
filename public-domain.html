@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Domain Style Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/public-domain.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="logo">
+                <span class="logo__accent">public</span>
+                <span class="logo__divider">---</span>
+                <span class="logo__accent">domain</span>
+            </div>
+            <nav class="nav">
+                <a class="nav__link" href="#collections">Collections</a>
+                <a class="nav__link" href="#artists">Artists</a>
+                <a class="nav__link" href="#about">About</a>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="hero" id="collections">
+                <p class="hero__eyebrow">A lovingly curated archive</p>
+                <h1 class="hero__title">Explore the endless possibilities of the public domain.</h1>
+                <p class="hero__subtitle">Download, remix, and reimagine thousands of high-quality works that are free for everyone.</p>
+                <div class="hero__actions">
+                    <a class="button button--primary" href="#browse">Start browsing</a>
+                    <a class="button button--ghost" href="#newsletter">Join the newsletter</a>
+                </div>
+            </section>
+
+            <section class="showcase" id="browse">
+                <article class="card">
+                    <h2 class="card__title">Vintage photography</h2>
+                    <p class="card__description">A time capsule of analogue film, carefully restored for modern screens.</p>
+                    <a class="card__cta" href="#">View the collection</a>
+                </article>
+                <article class="card">
+                    <h2 class="card__title">Typography specimens</h2>
+                    <p class="card__description">Letterforms and type studies released under open licenses for unlimited use.</p>
+                    <a class="card__cta" href="#">Browse the fonts</a>
+                </article>
+                <article class="card">
+                    <h2 class="card__title">Celestial charts</h2>
+                    <p class="card__description">Intricate star maps and cosmic illustrations from observatories around the world.</p>
+                    <a class="card__cta" href="#">Download a set</a>
+                </article>
+            </section>
+
+            <section class="about" id="about">
+                <div class="about__content">
+                    <h2 class="about__title">Made for creatives, educators, and the curious.</h2>
+                    <p class="about__text">Public domain art belongs to everyone. This concept site highlights how a calm palette, sharp typography, and generous whitespace can echo the timeless appeal of archival collections. Swap the copy or imagery with your own assets to make it your own.</p>
+                </div>
+            </section>
+
+            <section class="newsletter" id="newsletter">
+                <div class="newsletter__inner">
+                    <h2 class="newsletter__title">Stay in the loop</h2>
+                    <p class="newsletter__text">Get a monthly digest of new additions, featured artists, and design inspiration.</p>
+                    <form class="newsletter__form">
+                        <label class="sr-only" for="email">Email</label>
+                        <input class="newsletter__input" type="email" id="email" name="email" placeholder="name@email.com" required>
+                        <button class="button button--primary" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__text">© 2025 Public Domain Studio · Crafted for inspiration</p>
+        </footer>
+    </div>
+</body>
+</html>
